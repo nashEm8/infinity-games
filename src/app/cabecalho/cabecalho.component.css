@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+
+#menu-top{
+  padding: 40px 0;
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+}
+
+#menu-top .sub-menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu-top img{
+  width: 85px;
+}
+
+#menu-top .menu-opcoes{
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 35px;
+}
+
+#menu-top .menu-opcoes a{
+  font-size: 18px;
+  color: #2c2c2c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#menu-top .menu-pesquisar{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#menu-top .menu-pesquisar input{
+  border: 1px solid #2c2c2c;
+  border-radius: 0;
+  margin-right: 5px;
+  width: 220px;
+  height: 40px;
+}
+
+#menu-top .menu-pesquisar button{
+  height: 40px;
+}
